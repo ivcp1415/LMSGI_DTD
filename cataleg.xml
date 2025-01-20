@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+	<llista_actors>
+		<actor id="">
+			<nom></nom>
+			<edat></edat>
+		</actor>
+	</llista_actors>
+	<llista_pelicules>
+		<pelicula id="">
+			<titol idioma=""></titol>
+			<director></director>
+			<any></any>
+			<actors>
+				<actor_ref ref=""></actor_ref>
+			</actors>
+		</pelicula>
+	</llista_pelicules>
+	<llista_recomanacions_pelicules>
+		<recomanació>
+		</recomanació>
+	</llista_recomanacions_pelicules>
+</cataleg>
