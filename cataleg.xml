@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- referència al DTD de l'arxiu -->
+
 <!DOCTYPE cataleg SYSTEM "cataleg.dtd">
 <cataleg>
+	<!-- edat és opcional i pot no aparèixer -->
 	<llista_actors>
 		<actor id="a123">
 			<nom>Max von Sydow</nom>
@@ -15,10 +18,12 @@
 	</llista_actors>
 	<llista_pelicules>
 		<pelicula id="p123">
+			<!-- títol te com a atribut idioma, que conté string amb el nom de l'idiom en què està escrita la film -->
 			<titol idioma="rus">Zerkalo</titol>
 			<director>Andrei Tarkovski</director>
 			<any>1975</any>
 			<actors>
+				<!-- actor ref és una etiqueta buida que fa referència a actor -->
 				<actor_ref ref="a124"/>
 			</actors>
 		</pelicula>
@@ -33,6 +38,7 @@
 		</pelicula>
 	</llista_pelicules>
 	<llista_recomanacions_pelicules>
+		<!-- etiqueta buida que fa refèrencia a pel·lícula id -->
 		<recomanacio ref="p124"/>
 	</llista_recomanacions_pelicules>
 </cataleg>
