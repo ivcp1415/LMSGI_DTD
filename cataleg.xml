@@ -5,11 +5,11 @@
 		<actor id="a123">
 			<nom>Max von Sydow</nom>
 		</actor>
-        <actor id="a124">
+        	<actor id="a124">
 			<nom>Margarita Terekhova</nom>
 			<edat>82</edat>
 		</actor>
-        <actor id="a125">
+        	<actor id="a125">
 			<nom>Ingrid Thulin</nom>
 		</actor>
 	</llista_actors>
@@ -22,18 +22,18 @@
 				<actor_ref ref="a124"/>
 			</actors>
 		</pelicula>
-        <pelicula id="p124">
+        	<pelicula id="p124">
 			<titol idioma="suec">Nattvardsgästerna</titol>
 			<director>Ingmar Bergman</director>
 			<any>1963</any>
 			<actors>
 				<actor_ref ref="a123"/>
-                <actor_ref ref="a125"/>
+                		<actor_ref ref="a125"/>
 			</actors>
 		</pelicula>
 	</llista_pelicules>
 	<llista_recomanacions_pelicules>
 		<recomanacio ref="p124"/>
-        <recomanacio ref="pi13"/>
+        	<recomanacio ref="p123"/>
 	</llista_recomanacions_pelicules>
 </cataleg>
