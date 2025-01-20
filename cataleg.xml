@@ -34,6 +34,5 @@
 	</llista_pelicules>
 	<llista_recomanacions_pelicules>
 		<recomanacio ref="p124"/>
-        	<recomanacio ref="p123"/>
 	</llista_recomanacions_pelicules>
 </cataleg>
