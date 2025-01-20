@@ -1,8 +1,14 @@
+<!-- esdeveniments ha de tenir més d'un element -->
 <!ELEMENT esdeveniments (esdeveniment+)>
-<!ELEMENT esdeveniment (grup, lloc, data+, entrada)>
+
+<!-- esdeveniment ha de tenir com a mínim un grup i una data -->
+<!ELEMENT esdeveniment (grup+, lloc, data+, entrada)>
+
 <!ELEMENT grup (#PCDATA)>
 <!ELEMENT lloc (#PCDATA)>
 <!ELEMENT data (#PCDATA)>
 <!ELEMENT entrada (#PCDATA)>
+
+<!-- entrada pot ser gratuita i té per defecte l'opció "no" -->
 <!ATTLIST entrada gratuita (si|no) "no">
 
