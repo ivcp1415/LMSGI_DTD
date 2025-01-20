@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+	<llista_actors>
+		<actor id="a123">
+			<nom>Max von Sydow</nom>
+		</actor>
+        <actor id="a124">
+			<nom>Margarita Terekhova</nom>
+			<edat>82</edat>
+		</actor>
+        <actor id="a125">
+			<nom>Ingrid Thulin</nom>
+		</actor>
+	</llista_actors>
+	<llista_pelicules>
+		<pelicula id="p123">
+			<titol idioma="rus">Zerkalo</titol>
+			<director>Andrei Tarkovski</director>
+			<any>1975</any>
+			<actors>
+				<actor_ref ref="a124"/>
+			</actors>
+		</pelicula>
+        <pelicula id="p124">
+			<titol idioma="suec">Nattvardsgästerna</titol>
+			<director>Ingmar Bergman</director>
+			<any>1963</any>
+			<actors>
+				<actor_ref ref="a123"/>
+                <actor_ref ref="a125"/>
+			</actors>
+		</pelicula>
+	</llista_pelicules>
+	<llista_recomanacions_pelicules>
+		<recomanacio ref="p124"/>
+        <recomanacio ref="pi13"/>
+	</llista_recomanacions_pelicules>
+</cataleg>
